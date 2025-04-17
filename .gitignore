@@ -1,0 +1,75 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+admin-nuansa-fix/node_modules/
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+.env.development
+.env.production
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Laravel
+/backend/vendor
+/backend/node_modules
+/backend/public/storage
+/backend/public/hot
+/backend/storage/*.key
+/backend/storage/logs/*
+/backend/.env.*.php
+/backend/.env.php
+/backend/.env
+/backend/.phpunit.result.cache
+/backend/Homestead.json
+/backend/Homestead.yaml
+/backend/npm-debug.log
+/backend/yarn-error.log
+/backend/.env.backup
+/backend/auth.json
+
+# IDE files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# deploy
+/hostinger-deploy
